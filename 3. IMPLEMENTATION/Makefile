@@ -3,7 +3,7 @@ src/main.c
 
 INC = -Iinclude\
 
-PROJECT_NAME = CALCULATOR.out
+PROJECT_NAME = OPERATIONS.out
 
 $(PROJECT_NAME): $(SRC)
 	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
